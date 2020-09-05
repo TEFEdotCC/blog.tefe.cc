@@ -1,0 +1,11 @@
+
+# hugo
+/public
+
+# scripts
+deploy
+
+# npm
+/node_modules
+/resources
+package-lock.json

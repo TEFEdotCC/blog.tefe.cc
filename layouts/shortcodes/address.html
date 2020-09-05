@@ -1,0 +1,11 @@
+{{ range first 1 .Site.Params.address }}
+<p>
+{{ .FirstName | safeHTML }} {{ .Name | safeHTML }}<br />
+{{ .Street | safeHTML }}<br />
+{{ .City | safeHTML }}<br />
+{{ .Nation | safeHTML }}<br />
+</p>
+<p>
+<a href="mailto:{{ .eMail | safeHTML }}">{{ .eMail | safeHTML }}</a>
+</p>
+ {{ end }}
