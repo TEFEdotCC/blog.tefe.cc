@@ -9,3 +9,14 @@ deploy
 /node_modules
 /resources
 package-lock.json
+
+# video files and directories
+video/
+videos/
+*.mpg
+*.mpeg
+*.m2v
+*.webm
+*.ogg
+*.ogv
+*.avi

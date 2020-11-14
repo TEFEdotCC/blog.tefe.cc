@@ -1,6 +1,6 @@
 baseurl = "https://blog.tefe.cc"
 languageCode = "de-DE"
-theme = "hugo-theme-hello-friend"
+theme = ["hugo-video", "hugo-theme-hello-friend"]
 paginate = 5
 
 
